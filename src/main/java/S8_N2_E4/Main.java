@@ -7,12 +7,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Object> list = new ArrayList<>(Arrays.asList("Pramara cadana", "Segona cadena", "Tarcara cadana","Alguna cadena",2,8,6,7));
+        List<Object> list = new ArrayList<>(Arrays.asList("Pramara cadana", "Segona cadena", "Tarcara cadana","Alguna cadena","2945","8",6,7));
 
         List<String> listSortedAlphabetically = list.stream()
                 .filter(e -> e instanceof String)
                 .map(e -> (String) e)
-                .sorted(Comparator.naturalOrder())
+//                .sorted(Comparator.naturalOrder())
+                .sorted(Comparator.comparing(s -> s.charAt(0)))
                 .collect(Collectors.toList());
 
         System.out.println("La llista de Strings ordenada alfabèticament: \n\t"+listSortedAlphabetically);
@@ -40,7 +41,7 @@ public class Main {
 //                .peek(System.out::println)
                 .collect(Collectors.toList());
 
-        System.out.println("Els elements de la llista reemplaçant \"a\" per \"4\" és: "+listReplaceABy4);
+        System.out.println("Els elements de la llista reemplaçant \"a\" per \"4\" és:\n\t "+listReplaceABy4);
         System.out.println("**********************");
 
         List<Number> listOnlyNumbers = list.stream()
@@ -49,7 +50,7 @@ public class Main {
 //                .peek(System.out::println)
                 .collect(Collectors.toList());
 
-        System.out.println("Els elements de la llista que son numèrics son: "+listOnlyNumbers);
+        System.out.println("Els elements de la llista tipus Number son: \n\t"+listOnlyNumbers);
         System.out.println("**********************");
 
         List<String> listOnlyNumbersWhenSavedAsStrings = list.stream()
@@ -57,7 +58,7 @@ public class Main {
                 .filter(e -> e.matches("[0-9]*"))
                 .collect(Collectors.toList());
 
-        System.out.println("Els elements de la llista de Strings que son numèrics son: "+listOnlyNumbersWhenSavedAsStrings);
+        System.out.println("Els elements de la llista de Strings que son numèrics son: \n\t"+listOnlyNumbersWhenSavedAsStrings);
         System.out.println("**********************");
 
     }

@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2b0683-d716-4f65-9c45-0d2ee213aff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E3_E4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E5/GetPiValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E6_E7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N1_E8/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E3/Operacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/S8_N2_E4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/S8_N2_E4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/_PROGRAMMING/BackEnd_ITAcademy/Github/Sprint-1.-Java-Language-main/Tasca-S1-08/src/n2exercici4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/_PROGRAMMING/BackEnd_ITAcademy/Sprint1_S5&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.S8_N2_E4.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="S8_N2_E1.Main" />
+    <configuration name="S8_N1_E1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S8_N1_E1.Main" />
       <module name="Sprint1_S8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S8_N2_E1.*" />
+          <option name="PATTERN" value="S8_N1_E1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.S8_N2_E4.Main" />
-        <item itemvalue="Application.S8_N2_E3.Main" />
         <item itemvalue="Application.S8_N2_E2.Main" />
+        <item itemvalue="Application.S8_N1_E1.Main" />
+        <item itemvalue="Application.S8_N2_E3.Main" />
         <item itemvalue="Application.S8_N1_E6_E7.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +129,11 @@
       <updated>1683709242795</updated>
       <workItem from="1683709244134" duration="7364000" />
       <workItem from="1683721616617" duration="55000" />
-      <workItem from="1683732014206" duration="13313000" />
+      <workItem from="1683732014206" duration="13902000" />
+      <workItem from="1683789699136" duration="891000" />
+      <workItem from="1683792966695" duration="1905000" />
+      <workItem from="1683807550484" duration="629000" />
+      <workItem from="1684135451820" duration="2849000" />
     </task>
     <servers />
   </component>

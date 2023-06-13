@@ -12,7 +12,9 @@ public class Main {
 //        List<String> list3 = new ArrayList<>();
 //        list3.addAll(Arrays.asList(monthsOfYear));
 
-        List<String> monthsOfYear2 = new ArrayList<>(Arrays.asList("Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"));
+        List<String> monthsOfYear2 = new ArrayList<>(Arrays.asList(
+                "Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost", "Setembre", "Octubre", "Novembre", "Desembre"
+        ));
 
         monthsOfYear2.stream()
                 .forEach( m -> System.out.println(m));

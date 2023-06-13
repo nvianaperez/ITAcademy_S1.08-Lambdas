@@ -38,7 +38,7 @@ public class Main {
                 .filter(e -> e instanceof String)
                 .map(e -> (String) e)
                 .map(e -> e.contains("a") ? e.replace("a","4") : e)
-//                .peek(System.out::println)
+//              .peek(System.out::println)
                 .collect(Collectors.toList());
 
         System.out.println("Els elements de la llista reemplaçant \"a\" per \"4\" és:\n\t "+listReplaceABy4);
